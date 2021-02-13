@@ -1,5 +1,3 @@
-let lftqt = '\U+201C';
-
 let quotes = [
     {
         author: 'G.K. Chesterton',
@@ -51,9 +49,8 @@ let quotes = [
 console.log(quotes.length);
 createRandomQuote = () => {
 
-    let randomQuote = Math.floor(Math.random() * (quotes.length)); 
-    
-    console.log(randomQuote);
+    let randomQuote = Math.floor(Math.random() * (quotes.length));     
+   
 
     document.getElementById("text").innerHTML = `&#8220;${quotes[randomQuote]['quote']}&#8221`;
     document.getElementById("author").innerHTML = `-${quotes[randomQuote]['author']}`;
