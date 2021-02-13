@@ -1,0 +1,38 @@
+#container {
+
+    border: 2px black solid;   
+    max-width: 500px;
+    max-height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    margin-top: 20%;
+    padding:5px;
+    box-shadow : 5px 10px;
+
+
+
+}
+
+#text {
+
+    font-size:2em;
+    color:white;
+
+}
+
+#author {
+
+    text-align: right;
+    font-size:1em;
+    font-weight:bold;
+    color:white;
+}
+
+body {
+    background : url('https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bGlnaHRpbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
